@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 40px;
+}
+
+
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+@media(min-width:768px) {
+    .nav-links {
+        width: auto;
+        margin-left: auto;
+        margin-top: 0;
+        justify-content: flex-end;
+    }
+}
+
+.image-container {
+    background-image: url(" https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png");
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-content {
+    text-align: center;
+}
+
+div h1 {
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+div button {
+    color: #ffffff;
+    background-color: #323f4b;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;   
+}
